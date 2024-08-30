@@ -30,9 +30,6 @@ mongoose
   .connect(MONGO_STRING)
   .then(() => {
     console.log("MongoDB connected");
-    // seedRoles()
-    //   .then(r => createFirstAdmin())
-    //   .catch(e => console.log(e));
   })
   .catch((err) => console.log(err));
 
